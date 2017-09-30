@@ -2,13 +2,13 @@
 layout: post
 title:  "Linux安装Jekyll"
 date:   2017-09-09 06:25:25 +0400
-categories: jekyll installation 安装 教程
+categories: jekyll 
 ---
 
  本文讨论在Linux环境下安装Jekyll在PC本地编辑及浏览静态网站。同时也适用在Windows 10的Linux Subsystem下使用。
  这儿说的Linux暂时对应Ubuntu 16.04，也同时包括基于Ubuntu的别的Linux。
 
- *在 Fedora 26下也经过了测试，仅需使用稍微不同的命令而已。（比如把`apt`换成`dnf`）*
+ *在 Fedora 26下也经过了测试，仅需使用稍微不同的命令而已。（比如把`apt`换成`dnf`） 参考[here](/guide/install-jekyll)*
 
 在Windows下，进入*Bash for Windows*命令行，或在*Command Prompt* (i.e. `cmd`)下键入`bash`进入。
 在Linux下，打开terminal命令行。
