@@ -14,7 +14,7 @@ categories: jekyll
 在Linux下，打开terminal命令行。
 之后的操作，基本上在Linux和在Windows 10的Linux Subsystem下没有区别（除非特别指出的话）。
 
-一般Ruby已经随Linux安装了，可通过以下命令检查其版本
+有可能Ruby已经安装了，可通过以下命令检查其版本
 
 ```Bash
 $ruby -v
