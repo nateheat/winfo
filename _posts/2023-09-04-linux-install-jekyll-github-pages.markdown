@@ -72,9 +72,6 @@ To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
  Incremental build: disabled. Enable with --incremental
       Generating...
                     done in 1.225 seconds.
-                    Auto-regeneration may not work on some Windows versions.
-                    Please see: https://github.com/Microsoft/BashOnWindows/issues/216
-                    If it does not work, please upgrade Bash on Windows or run Jekyll with --no-watch.
  Auto-regeneration: enabled for '/home/.../newsite'
     Server address: http://127.0.0.1:4000
   Server running... press ctrl-c to stop.
