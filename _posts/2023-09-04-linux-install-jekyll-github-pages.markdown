@@ -6,8 +6,8 @@ categories: jekyll
 ---
 
 几年前的[短文][origin-article]讨论了在Linux下安装Jekyll的一些步骤，其中一些内容需要更新，因此以此文作为更新版本，对应的时间为2023年下半年。
- 本文讨论在Linux环境下安装Jekyll在PC本地编辑及浏览静态网站。同时也适用在Windows 11的Linux Subsystem下使用。
- 这儿说的Linux暂时对应Ubuntu 22.04，也同时包括基于Ubuntu的别的Linux。
+本文讨论在Linux环境下安装Jekyll在PC本地编辑及浏览静态网站。同时也适用在Windows 11的Linux Subsystem下使用。
+这儿说的Linux暂时对应Ubuntu 22.04，也同时包括基于Ubuntu的别的Linux。
 
 在Windows下，进入*Bash for Windows*命令行，或在*Command Prompt* (i.e. `cmd`)下键入`bash`进入。
 在Linux下，打开terminal命令行。
@@ -67,19 +67,19 @@ $echo "Hello World!" > index.html
 .../newsite$ bundle exec jekyll serve
 Configuration file: none
 To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
-            Source: /home/.../newsite
-       Destination: /home/.../newsite/_site
+            Source: /.../newsite
+       Destination: /.../newsite/_site
  Incremental build: disabled. Enable with --incremental
       Generating...
                     done in 1.225 seconds.
- Auto-regeneration: enabled for '/home/.../newsite'
+ Auto-regeneration: enabled for '/.../newsite'
     Server address: http://127.0.0.1:4000
   Server running... press ctrl-c to stop.
 ```
 
 根据上面的提示，在浏览器地址栏输入URL:`http://127.0.0.1:4000`，或者`localhost:4000`，
 
-就可以访问到页面仅显示*Hello World!*的网页啦^_^
+就可以访问到页面仅显示**Hello World!**的网页啦^_^
 
 
 
